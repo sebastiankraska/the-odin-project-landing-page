@@ -1,6 +1,9 @@
 * {
     font-family: 'Roboto', sans-serif;
     border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 .bg-one {
@@ -31,4 +34,9 @@
 
 blockquote {
     font: 36px light italic #1f2937;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
