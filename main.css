@@ -41,3 +41,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+header > nav > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.logo {
+    margin: auto;
+}
