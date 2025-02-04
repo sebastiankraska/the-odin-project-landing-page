@@ -42,6 +42,10 @@ body {
     flex-direction: column;
 }
 
+header, div, footer {
+    padding: 50px 100px;
+}
+
 header > nav > ul {
     display: flex;
     list-style-type: none;
