@@ -6,9 +6,22 @@
     box-sizing: border-box;
 }
 
-.bg-one {
+.headline, .nav-bar {
     background-color: #1F2937;
     color: white;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+}
+
+.headline-text {
+    flex-basis: 400px;
+}
+
+.headline-image {
+    flex-basis: 400px;
 }
 
 .bg-two {
