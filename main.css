@@ -86,6 +86,10 @@ header > nav > ul {
 .action-text {
     flex-grow: 1;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+}
 
 .info-piece {
     padding: 10px;
