@@ -56,7 +56,7 @@ body {
 }
 
 header, div, footer {
-    padding: 50px 50px;
+    padding: 50px 225px;
 }
 
 header > nav > ul {
@@ -79,8 +79,8 @@ header > nav > ul {
 }
 .action-wrapper {
     background: blue;
-    width: 1000px;
     padding: 10px;
+    width: 100%;
     border-radius: 10px;
 }
 .action-text {
