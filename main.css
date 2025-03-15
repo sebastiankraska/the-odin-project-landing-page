@@ -15,6 +15,10 @@
     background-color: #e5e7eb;
 }
 
+.horizontal {
+    display: flex;
+}
+
 .call-to-action {
     background-color: #3882f6;
 }
