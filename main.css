@@ -19,26 +19,32 @@
     display: flex;
 }
 
+
+
 .call-to-action {
     background-color: #3882f6;
 }
 
-.hero-text {
-    font: 48px #f9faf8;
+.hero-text > h1 {
+    font: 48px;
+    color: #f9faf8;
     font-weight: 900;
 }
 
-.hero-side {
-    font: 18px #e5e7eb;
+.hero-text > p {
+    font: 11px;
+    color: #e5e7eb;
 }
 
 .informational-text {
-    font: 36px #1F2937;
+    font: 36px;
+    color: #1F2937;
     font-weight: 900;
 }
 
 blockquote {
-    font: 36px light italic #1f2937;
+    font: 36px light italic;
+    color: #1f2937;
 }
 
 body {
