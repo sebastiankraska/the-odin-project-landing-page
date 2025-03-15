@@ -101,8 +101,21 @@
 
 
 blockquote {
-    font-size: 36px light italic;
+    font-size: 36px;
+    font-style: italic;
     color: #1f2937;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+    margin-top: 0;
 }
 
 body {
