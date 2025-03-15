@@ -6,12 +6,12 @@
     box-sizing: border-box;
 }
 
-.bg-one {
+.bg-dark {
     background-color: #1F2937;
     color: white;
 }
 
-.bg-two {
+.bg-gray {
     background-color: #e5e7eb;
 }
 
