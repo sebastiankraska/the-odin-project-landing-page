@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Arial', sans-serif;
     border: 1px solid red;
     margin: 0px;
     padding: 0px;
@@ -19,31 +19,48 @@
     display: flex;
 }
 
+.hero-text {
+    width: 500px;
+    padding: 15px;
+}
 
+.hero-img {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.hero-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
 
 .call-to-action {
     background-color: #3882f6;
 }
 
 .hero-text > h1 {
-    font: 48px;
+    font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
 .hero-text > p {
-    font: 11px;
+    font-size: 18px;
     color: #e5e7eb;
 }
 
 .informational-text {
-    font: 36px;
+    font-size: 36px;
     color: #1F2937;
     font-weight: 900;
 }
 
 blockquote {
-    font: 36px light italic;
+    font-size: 36px light italic;
     color: #1f2937;
 }
 
